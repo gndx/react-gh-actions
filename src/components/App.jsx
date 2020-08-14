@@ -8,13 +8,13 @@ const App = () => {
   );
   return (
     <div className="App">
-      {characters.map(character => (
+      {characters.map(character => 
         <div className="App-content">
           <h2>{character.name}</h2>
           <img src={character.image} alt={character.name} />
         </div>
       ))}
-    </div>
+    </div
   );
 };
 
